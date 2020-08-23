@@ -1,0 +1,152 @@
+[debug] [2020-08-23T11:12:26.459Z] ----------------------------------------------------------------------
+[debug] [2020-08-23T11:12:26.462Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Mohit\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-08-23T11:12:26.462Z] CLI Version:   8.9.0
+[debug] [2020-08-23T11:12:26.462Z] Platform:      win32
+[debug] [2020-08-23T11:12:26.462Z] Node Version:  v12.18.2
+[debug] [2020-08-23T11:12:26.464Z] Time:          Sun Aug 23 2020 16:42:26 GMT+0530 (India Standard Time)
+[debug] [2020-08-23T11:12:26.464Z] ----------------------------------------------------------------------
+[debug] [2020-08-23T11:12:26.464Z] 
+[debug] [2020-08-23T11:12:26.472Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-08-23T11:12:26.474Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\Javascript\react\Google\google-clone
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2020-08-23T11:12:49.753Z] ----------------------------------------------------------------------
+[debug] [2020-08-23T11:12:49.756Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Mohit\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-08-23T11:12:49.756Z] CLI Version:   8.9.0
+[debug] [2020-08-23T11:12:49.756Z] Platform:      win32
+[debug] [2020-08-23T11:12:49.756Z] Node Version:  v12.18.2
+[debug] [2020-08-23T11:12:49.758Z] Time:          Sun Aug 23 2020 16:42:49 GMT+0530 (India Standard Time)
+[debug] [2020-08-23T11:12:49.758Z] ----------------------------------------------------------------------
+[debug] [2020-08-23T11:12:49.758Z] 
+[debug] [2020-08-23T11:12:49.767Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-08-23T11:12:49.770Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\Javascript\react\Google\google-clone
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2020-08-23T11:12:54.001Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?pageSize=100  
+ 
+[debug] [2020-08-23T11:12:54.608Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 23 Aug 2020 11:12:54 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  Using project fir-7a138 (google) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2020-08-23T11:13:09.705Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2020-08-23T11:13:09.805Z] <<< HTTP RESPONSE 200 {"accept-ranges":"bytes","vary":"Accept-Encoding, Origin","content-type":"application/json","content-length":"1429","date":"Sun, 23 Aug 2020 10:36:33 GMT","expires":"Sun, 23 Aug 2020 11:26:33 GMT","last-modified":"Thu, 20 Aug 2020 21:07:50 GMT","x-content-type-options":"nosniff","server":"sffe","x-xss-protection":"0","cache-control":"public, max-age=3000","age":"2196","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""}
+[info] +  Wrote build/index.html 
+[info] 
+[info] i  Writing configuration info to firebase.json... 
+[info] i  Writing project information to .firebaserc... 
+[info] 
+[info] +  Firebase initialization complete! 
+[debug] [2020-08-23T11:13:46.080Z] ----------------------------------------------------------------------
+[debug] [2020-08-23T11:13:46.083Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Mohit\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2020-08-23T11:13:46.083Z] CLI Version:   8.9.0
+[debug] [2020-08-23T11:13:46.083Z] Platform:      win32
+[debug] [2020-08-23T11:13:46.083Z] Node Version:  v12.18.2
+[debug] [2020-08-23T11:13:46.085Z] Time:          Sun Aug 23 2020 16:43:46 GMT+0530 (India Standard Time)
+[debug] [2020-08-23T11:13:46.085Z] ----------------------------------------------------------------------
+[debug] [2020-08-23T11:13:46.085Z] 
+[debug] [2020-08-23T11:13:46.095Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-08-23T11:13:46.098Z] > authorizing via signed-in user
+[debug] [2020-08-23T11:13:46.099Z] [iam] checking project fir-7a138 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-08-23T11:13:46.112Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-7a138:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2020-08-23T11:13:47.658Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 23 Aug 2020 11:13:47 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1423","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-08-23T11:13:47.662Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/fir-7a138  
+ 
+[debug] [2020-08-23T11:13:48.005Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 23 Aug 2020 11:13:48 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Deploying to 'fir-7a138'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2020-08-23T11:13:48.027Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/fir-7a138/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2020-08-23T11:13:50.787Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 23 Aug 2020 11:13:50 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting[fir-7a138]: beginning deploy... 
+[info] i  hosting[fir-7a138]: found 18 files in build 
+[debug] [2020-08-23T11:13:50.810Z] [hosting] hash cache [YnVpbGQ] not populated
+[debug] [2020-08-23T11:13:51.039Z] [hosting] hash cache [YnVpbGQ] stored for 18 files
+[debug] [2020-08-23T11:13:51.040Z] [hosting][hash queue][FINAL] {"max":204,"min":17,"avg":30.444444444444443,"active":0,"complete":18,"success":18,"errored":0,"retried":0,"total":18,"elapsed":216}
+[debug] [2020-08-23T11:13:51.041Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/fir-7a138/versions/561268981ff90d3b:populateFiles  
+ <request body omitted>
+[debug] [2020-08-23T11:13:52.827Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 23 Aug 2020 11:13:52 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-08-23T11:13:52.852Z] [hosting][populate queue][FINAL] {"max":1796,"min":1796,"avg":1796,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":1815}
+[debug] [2020-08-23T11:13:52.856Z] [hosting] uploads queued: 18
+[debug] [2020-08-23T11:13:56.901Z] [hosting][upload queue][FINAL] {"max":4069,"min":1964,"avg":2924,"active":0,"complete":18,"success":18,"errored":0,"retried":0,"total":18,"elapsed":4071}
+[info] +  hosting[fir-7a138]: file upload complete 
+[debug] [2020-08-23T11:13:56.902Z] [hosting] deploy completed after 6112ms
+[debug] [2020-08-23T11:13:57.099Z] [
+  {
+    "config": {
+      "public": "build",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "fir-7a138"
+    },
+    "site": "fir-7a138",
+    "version": "sites/fir-7a138/versions/561268981ff90d3b"
+  }
+]
+[info] i  hosting[fir-7a138]: finalizing version... 
+[debug] [2020-08-23T11:13:57.118Z] >>> HTTP REQUEST PATCH https://firebasehosting.googleapis.com/v1beta1/sites/fir-7a138/versions/561268981ff90d3b?updateMask=status  
+ {"status":"FINALIZED"}
+[debug] [2020-08-23T11:13:58.816Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 23 Aug 2020 11:13:58 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-08-23T11:13:58.818Z] [hosting] finalized version for fir-7a138: {"name":"sites/fir-7a138/versions/561268981ff90d3b","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2020-08-23T11:13:49.946584Z","createUser":{"email":"bmohit980@gmail.com"},"finalizeTime":"2020-08-23T11:13:58.792448Z","finalizeUser":{"email":"bmohit980@gmail.com"}}
+[info] +  hosting[fir-7a138]: version finalized 
+[info] i  hosting[fir-7a138]: releasing new version... 
+[debug] [2020-08-23T11:13:58.831Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/fir-7a138/releases?version_name=sites/fir-7a138/versions/561268981ff90d3b  
+ {"message":null}
+[debug] [2020-08-23T11:14:00.521Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 23 Aug 2020 11:14:00 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-08-23T11:14:00.523Z] [hosting] release: {"name":"sites/fir-7a138/releases/1598181239908916","version":{"name":"sites/fir-7a138/versions/561268981ff90d3b","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2020-08-23T11:13:49.946584Z","createUser":{"email":"bmohit980@gmail.com"},"finalizeTime":"2020-08-23T11:13:58.792448Z","finalizeUser":{"email":"bmohit980@gmail.com"},"preview":{}},"type":"DEPLOY","releaseTime":"2020-08-23T11:13:59.908916607Z","releaseUser":{"email":"bmohit980@gmail.com"}}
+[info] +  hosting[fir-7a138]: release complete 
+[info] 
+[info] +  Deploy complete! 
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/fir-7a138/overview
+[info] Hosting URL: https://fir-7a138.web.app
