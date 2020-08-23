@@ -1,0 +1,94 @@
+.searchPage-header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    align-items: flex-start;
+    border-bottom: 1px solid lightgray;
+}
+
+.searchPage-logo {
+    object-fit: contain;
+    height: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.searchPage-body > .search > .search-input {
+    width: unset;
+    margin: unset;
+    max-width: unset;
+    margin-top: 30px;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    color: gray;
+    padding-bottom: 20px;
+}
+
+.options a,
+.options-right a {
+    text-decoration: none;
+    color: gray;
+}
+
+.options-left,
+.options-right {
+    display: flex;
+}
+
+.options-right {
+    margin-left: 80px;
+}
+
+.searchPage-option {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.searchPage-option a {
+    margin-left: 5px;
+}
+
+.searchPage-result {
+    margin: 40px 0;
+}
+
+.count {
+    color: #70757a;
+}
+
+.searchPage-results {
+    max-width: 650px;
+    margin: 20px 0 100px 240px;
+}
+
+.title {
+    text-decoration: none;
+}
+
+.title:hover{
+    text-decoration: underline;
+}
+
+.title > h2 {
+    font: 20px;
+    font-family: Arial,sans-serif;
+    color: rgba(26,13,171);
+    font-weight: 200;
+}
+
+.snippet {
+    margin-top: 10px;
+}
+
+.link {
+    color: rgba(32,33,36);
+    text-decoration: none;
+}
+

@@ -1,30 +1,52 @@
 import React, {useState} from 'react';
 import SearchIcon from '@material-ui/icons/Search';
 import MicIcon from '@material-ui/icons/Mic';
-import { Button } from '@material-ui/core'
+import { Button } from '@material-ui/core';
+import { useHistory } from 'react-router-dom';
+import { useStateValue } from './StateProvider';
+import { actionType } from './reducer';
 
 import './Search.css';
 
-function Search(){
+function Search({hiddenbtns = false}){
+    const [{}, dispatch] = useStateValue();
+
     const [input, setInput] = useState('');
+    const history = useHistory();
 
     const search = e => {
         e.preventDefault();
         console.log(input)
+
+        dispatch({ 
+            type:actionType.SET_SEARCH_TERM,
+            term:input 
+        })
+
+        history.push('/search')
     }
   
     return (
         <form className="search">
             <div className="search-input">
                 <SearchIcon className="search-inputIcon"/>
-                <input value = {input} onChange={e => setInput(e.target.value)}/>
+                    <input value = {input} onChange={e => setInput(e.target.value)}/>
                 <MicIcon/>
             </div>
 
-            <div className="search-btns">
-                <Button type="submit" onClick={search} variant="outlined">Google Search</Button>
-                <Button variant="outlined">I'm Feeling Lucky</Button>
-            </div>
+            {!hiddenbtns ? (
+                    <div className="search-btns">
+                       <Button type="submit" onClick={search} variant="outlined">Google Search</Button>
+                       <Button variant="outlined">I'm Feeling Lucky</Button>
+                   </div>
+            ):(
+                    <div className="search-btns">
+                        <Button className="search-btnHidden" type="submit" onClick={search} variant="outlined">Google Search</Button>
+                        <Button className="search-btnHidden" variant="outlined">I'm Feeling Lucky</Button>
+                    </div>
+            )}
+
+         
         </form>
     )
 }
