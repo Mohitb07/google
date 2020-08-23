@@ -43,3 +43,17 @@
     object-fit: contain;
     height: 100px;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .header-left {
+        display: none;
+    }
+    .header-right {
+        display: flex;
+        margin-left: 9rem;
+    }
+    .home-body > img {
+        margin-top: 6rem;
+    }
+  }

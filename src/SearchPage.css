@@ -92,3 +92,36 @@
     text-decoration: none;
 }
 
+
+@media only screen and (max-width: 600px) {
+    .searchPage-results {
+        display: flex;
+        flex-direction: column;
+        margin-left: 2rem;
+        font-size: 90%;
+    }
+    .searchPage-logo{
+        object-fit: contain;
+        height: 25px;
+        margin-left: 8px;
+    }
+    .searchPage-body > .search > .search-input{
+        width: 97%;
+        margin-top:1rem;
+        padding: 8px;
+        margin-left: -2.5rem;
+    }
+    .options {
+        margin-left: -10rem;
+        font-size: 10px;
+    }
+    .options-left {
+        margin-left: 25px;
+    }
+    .options-right {
+        display: none;
+    }
+    .snippet {
+        margin-bottom: -3rem;
+    }
+}

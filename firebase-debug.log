@@ -150,3 +150,81 @@ You're about to initialize a Firebase project in this directory:
 [info] 
 [info] Project Console: https://console.firebase.google.com/project/fir-7a138/overview
 [info] Hosting URL: https://fir-7a138.web.app
+[debug] [2020-08-23T15:01:22.064Z] ----------------------------------------------------------------------
+[debug] [2020-08-23T15:01:22.067Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Mohit\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2020-08-23T15:01:22.068Z] CLI Version:   8.9.0
+[debug] [2020-08-23T15:01:22.068Z] Platform:      win32
+[debug] [2020-08-23T15:01:22.068Z] Node Version:  v12.18.2
+[debug] [2020-08-23T15:01:22.070Z] Time:          Sun Aug 23 2020 20:31:22 GMT+0530 (India Standard Time)
+[debug] [2020-08-23T15:01:22.070Z] ----------------------------------------------------------------------
+[debug] [2020-08-23T15:01:22.070Z] 
+[debug] [2020-08-23T15:01:22.085Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-08-23T15:01:22.090Z] > authorizing via signed-in user
+[debug] [2020-08-23T15:01:22.091Z] [iam] checking project fir-7a138 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-08-23T15:01:22.101Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-08-23T15:01:22.104Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-08-23T15:01:22.340Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 23 Aug 2020 15:01:22 GMT","server":"scaffolding on HTTPServer2","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-08-23T15:01:22.358Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-7a138:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2020-08-23T15:01:23.970Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 23 Aug 2020 15:01:24 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1364","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-08-23T15:01:23.975Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/fir-7a138  
+ 
+[debug] [2020-08-23T15:01:24.484Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 23 Aug 2020 15:01:25 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Deploying to 'fir-7a138'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2020-08-23T15:01:24.512Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/fir-7a138/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2020-08-23T15:01:26.735Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 23 Aug 2020 15:01:27 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting[fir-7a138]: beginning deploy... 
+[info] i  hosting[fir-7a138]: found 18 files in build 
+[debug] [2020-08-23T15:01:26.835Z] [hosting] hash cache [YnVpbGQ] stored for 18 files
+[debug] [2020-08-23T15:01:26.837Z] [hosting][hash queue][FINAL] {"max":3,"min":1,"avg":1,"active":0,"complete":18,"success":18,"errored":0,"retried":0,"total":18,"elapsed":8}
+[debug] [2020-08-23T15:01:26.838Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/fir-7a138/versions/7943b56f45baba63:populateFiles  
+ <request body omitted>
+[debug] [2020-08-23T15:01:28.682Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 23 Aug 2020 15:01:29 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-08-23T15:01:28.747Z] [hosting][populate queue][FINAL] {"max":1913,"min":1913,"avg":1913,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":1913}
+[debug] [2020-08-23T15:01:28.751Z] [hosting] uploads queued: 0
+[debug] [2020-08-23T15:01:28.752Z] [hosting][upload queue][FINAL] {"max":0,"min":9999999999,"avg":0,"active":0,"complete":0,"success":0,"errored":0,"retried":0,"total":0,"elapsed":1598194888752}
+[info] +  hosting[fir-7a138]: file upload complete 
+[debug] [2020-08-23T15:01:28.756Z] [hosting] deploy completed after 1969ms
+[debug] [2020-08-23T15:01:28.920Z] [
+  {
+    "config": {
+      "public": "build",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "fir-7a138"
+    },
+    "site": "fir-7a138",
+    "version": "sites/fir-7a138/versions/7943b56f45baba63"
+  }
+]
+[info] i  hosting[fir-7a138]: finalizing version... 
+[debug] [2020-08-23T15:01:29.031Z] >>> HTTP REQUEST PATCH https://firebasehosting.googleapis.com/v1beta1/sites/fir-7a138/versions/7943b56f45baba63?updateMask=status  
+ {"status":"FINALIZED"}
+[debug] [2020-08-23T15:01:30.831Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 23 Aug 2020 15:01:31 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-08-23T15:01:30.836Z] [hosting] finalized version for fir-7a138: {"name":"sites/fir-7a138/versions/7943b56f45baba63","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2020-08-23T15:01:26.876612Z","createUser":{"email":"bmohit980@gmail.com"},"finalizeTime":"2020-08-23T15:01:31.353822Z","finalizeUser":{"email":"bmohit980@gmail.com"}}
+[info] +  hosting[fir-7a138]: version finalized 
+[info] i  hosting[fir-7a138]: releasing new version... 
+[debug] [2020-08-23T15:01:30.869Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/fir-7a138/releases?version_name=sites/fir-7a138/versions/7943b56f45baba63  
+ {"message":null}
+[debug] [2020-08-23T15:01:32.674Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 23 Aug 2020 15:01:33 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-08-23T15:01:32.678Z] [hosting] release: {"name":"sites/fir-7a138/releases/1598194892538334","version":{"name":"sites/fir-7a138/versions/7943b56f45baba63","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2020-08-23T15:01:26.876612Z","createUser":{"email":"bmohit980@gmail.com"},"finalizeTime":"2020-08-23T15:01:31.353822Z","finalizeUser":{"email":"bmohit980@gmail.com"},"preview":{}},"type":"DEPLOY","releaseTime":"2020-08-23T15:01:32.538334305Z","releaseUser":{"email":"bmohit980@gmail.com"}}
+[info] +  hosting[fir-7a138]: release complete 
+[info] 
+[info] +  Deploy complete! 
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/fir-7a138/overview
+[info] Hosting URL: https://fir-7a138.web.app
